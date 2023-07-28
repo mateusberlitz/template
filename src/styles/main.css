@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+    overflow-y: overlay;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active
+{
+ -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+}
+
+input:-webkit-autofill
+{
+ -webkit-text-fill-color: #000 !important;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #000;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /* background: linear-gradient(90deg, #3BA1F0 -1.31%, #7260DF 91.65%); */
+    background: #b5b3c7;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #1B1F2C;
+cursor: pointer
+}
+
+
+.fade {
+    transition: all ease .5s;
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.fade.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.slick-list {margin: 0 -5px;}
+.slick-slide>div {padding: 0 10px;}
+
+.buttonIconAnimation button svg{
+    transition: all ease .5s;
+}
+
+.buttonIconAnimation button:hover svg{
+    transition: all ease .5s;
+    transform: translateX(10px);
+}
+
+@keyframes floor{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dasharray: 4000;
+        stroke-dashoffset: 4000;
+    }
+}
+
+.floor{
+    animation: floor 3s ease infinite alternate;
+}
+
+
+@keyframes light{
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.light{
+    animation: light 2s ease infinite alternate;
+}
+
+.mainButton svg{
+    transition: all ease .5s;
+}
+
+.mainButton:hover svg{
+    transition: all ease .5s;
+    transform: translateY(10px);
+}
+
+.comparison .slick-prev, .comparison .slick-next{
+    transition: all ease .5s;
+    top: -20px
+}
+
+.comparison .slick-next{
+    right: 10px;
+}
+
+.comparison .slick-prev{
+    left: auto;
+    right: 40px;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@svgr/webpack": "^8.0.1",
+    "@types/node": "20.4.4",
+    "@types/react": "18.2.16",
+    "@types/react-dom": "18.2.7",
+    "axios": "^1.4.0",
+    "framer-motion": "^10.13.1",
+    "gsap": "^3.12.2",
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-compare-image": "^3.4.0",
+    "react-dom": "18.2.0",
+    "react-feather": "^2.0.10",
+    "react-hook-form": "^7.45.2",
+    "react-input-mask": "^2.0.4",
+    "react-select": "^5.7.4",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "typescript": "5.1.6",
+    "vanilla-masker": "^1.2.0",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/react-slick": "^0.23.10",
+    "@types/vanilla-masker": "^1.2.1"
+  }
+}
